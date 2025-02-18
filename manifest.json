@@ -7,7 +7,7 @@
 	"description": "Uses a few lines of CSS to makes Grok chats full screen width for easier code reading.",
 	"content_scripts": [
 		{
-			"matches": ["https://grock.com/chat/*"],
+			"matches": ["https://grok.com/chat/*"],
 			"css": ["styles.css"]
 		}
 	],
