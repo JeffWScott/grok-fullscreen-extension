@@ -4,10 +4,10 @@ I was sick of scrolling the the right all the time when Grok was displaying code
 # Implementation
 This is the entire extension:
 
-Force max-width.
+Forces --content-max-width to be 100%.
 ```CSS
-div.w-full.flex-col {
-    max-width: 100% !important;
+:root {
+	--content-max-width: 100% !important;
 }
 
 ```
