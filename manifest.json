@@ -3,7 +3,7 @@
 	"author": "Jeff W Scott",
 	"name": "Grok Fullscreen Chat",
 	"homepage_url": "https://github.com/JeffWScott/grok-fullscreen-extension",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Uses a few lines of CSS to makes Grok chats full screen width for easier code reading.",
 	"content_scripts": [
 		{
