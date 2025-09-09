@@ -1,3 +1,8 @@
 :root {
 	--content-max-width: 100% !important;
 }
+
+
+div.w-full.flex-col {
+    max-width: 100% !important;
+}

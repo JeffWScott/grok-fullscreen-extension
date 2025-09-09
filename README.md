@@ -4,17 +4,21 @@ I was sick of scrolling the the right all the time when Grok was displaying code
 # Implementation
 This is the entire extension:
 
-Forces --content-max-width to be 100%.
 ```CSS
 :root {
 	--content-max-width: 100% !important;
+}
+
+div.w-full.flex-col {
+    max-width: 100% !important;
 }
 
 ```
 
 
 ## Install
-Install from store and refresh your Grok tab.
+- Install from store 
+- refresh your Grok tab (must be done after a chat is initiated so the CSS can apply)
 
 ## Privacy Policy
 This browser extension does not collect, process, or transmit any user data. It only modifies the appearance of Grok.com pages using CSS to make the interface full screen for better usability. All code is open source an verifiable.
